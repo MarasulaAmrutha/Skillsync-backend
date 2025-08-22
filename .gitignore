@@ -1,0 +1,25 @@
+# Build
+/target/
+/build/
+
+# IDE
+/.idea/
+/.project
+.classpath
+.factorypath
+.settings/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+
+# Sensitive configs (do not push real DB creds)
+src/main/resources/application.properties
